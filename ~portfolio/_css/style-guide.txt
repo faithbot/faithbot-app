@@ -1,0 +1,47 @@
+
+Brand Colors:
+
+#6e5494 - Github Purple
+#0077b5 - LinkedIn Blue
+#dd4b39 - Google+ Red
+
+
+Site Colors:
+
+Main Colors
+#61b3ff - strong blue
+#6b6b6b - medium grey
+#6b6b6b - dark grey
+#575757 - text grey (within color range accesability)
+
+Accent Colors
+#ffe6a1 - Orange         FFC729 - dark orange
+#c7fce4 - Turquois
+#e0c0fa - Lavender
+#b4e2fa - Light Blue
+#b8b6fc - Purple-Blue
+
+Font Stack:
+
+
+Troubleshooting ideas:
+*{ border: 1px solid red; }
+
+Table of contents:
+ Generic
+ General
+ General link styling
+ Main containers - in order of appearance
+ Media queries
+
+
+Order by: 
+ background
+ border 
+ font
+ height 
+ position
+ z-index
+ margin
+ padding
+
