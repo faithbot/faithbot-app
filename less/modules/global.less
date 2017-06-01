@@ -43,7 +43,7 @@ h1.subtle strong {
 }
 
 h1 {
-	font-size: 130%;
+	font-size: 125%;
 	font-weight: normal;
 	color: #222;
 	padding: 0;
@@ -59,7 +59,7 @@ h2 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 115%;
 	font-weight: 400;
 	color: #555;
 	padding: 0;
@@ -81,7 +81,7 @@ p {
 	margin: 0 0 15px 0;
 }
 
-p, ul li, ol li {
+p, ul, ol {
 	margin: 0 0 15px 0;
 }
 
@@ -121,9 +121,13 @@ ul, ol {
 	margin: 0;
 }
 
+ul {
+	list-style-type: circle;
+}
+
 ul li, ol li {
-	padding-left: 30px;
-	margin-left: -30px;
+	padding-left: 20px;
+	margin-left: -20px;
 }
 
 ol li ul {
@@ -146,6 +150,9 @@ ol li ul li {
 .italic {
 	font-style: italic;
 }
+.no-symbol {
+	list-style-type: none;
+}
 .subtext {
 	background-color: #f2f2f2;
 	border: 1px solid #ddd;
@@ -153,6 +160,12 @@ ol li ul li {
 	font-size: 70%;
 	font-style: italic;
 	padding: 10px;
+}
+.subheading {
+	font-size: 80%;
+	font-style: italic;
+	//padding: 0;
+	//margin: 0;
 }
 .onehalf {
 	width: 45%;
