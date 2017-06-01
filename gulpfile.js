@@ -17,9 +17,9 @@ gulp.task('scripts', function(){
 
 // Compile Less
 gulp.task('styles', function() {
-	gulp.src('less/**/*.less')
+	gulp.src('less/styles.less')
 	.pipe(plumber())
-	.pipe(concat('styles.css'))
+	//.pipe(concat('styles.css'))
 	.pipe(less({
 		filename: 'styles.less',
 		compress: true
